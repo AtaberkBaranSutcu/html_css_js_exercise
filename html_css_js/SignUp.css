@@ -1,0 +1,19 @@
+#signupstyle {
+	border-width: 3px;
+	border-style: dashed;
+	border-color: #FF9B00;
+	padding: 20px 20px 20px 300px;
+	background-image: url("signupbg.jpg");
+	background-size: cover;
+}
+#stable, .stdc{
+	padding: 10px;
+	font-weight:bold; 
+	
+}
+#h1inf{
+	padding: 1px 1px 1px 320px;
+	border-bottom: 5px solid orange;
+	border-left: 5px solid orange;
+	color: white;
+}

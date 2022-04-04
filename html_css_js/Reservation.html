@@ -1,0 +1,201 @@
+<html>
+<head>
+<style>
+#resh1{
+	color: white;
+	padding-left: 35px;
+	border-bottom: 5px solid orange;
+	border-left: 5px solid orange;
+}
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#customers td, #customers th {
+	border: 1px solid orange;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: white;}
+
+#customers td:hover {background-color: orange;}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #274187;
+	color: orange;
+}
+.myDiv {
+	font-family: Arial, Helvetica, sans-serif;
+	border: 5px outset orange;
+	background-color: #274187;    
+	text-align: center;
+	color: white;
+}
+</style>
+</head>
+
+<body bgcolor="#214D94">
+	<table bgcolor="#274187" border="1" width="100%">
+		<tr>
+			<td bgcolor="#FF9B00" colspan="4"><a href="HomePage.html"><img src="logo.png" align="left"></a><h1 style="color:#274187;"><br><br><center>ÇANKAYA RESTAURANT</center></h1><h4 style="color:#274187;"><center>in Alaçatı</center></h4></td>
+		</tr>
+		<tr>		
+			<th><a style="color:#FF9B00" href="Gallery.html">Gallery</a></th>
+			<th><a style="color:white" href="SignUp.html">Sign Up</a></th>
+			<th><a style="color:#FF9B00" href="colorlib-booking-1/index.html">Reservation</a></th>
+			<th><a style="color:white" href="Contact.html">Contact</a></th>
+		</tr>
+	</table>
+	
+	<h1 id="resh1">RESERVATION</h1>
+	
+	<table id="customers">
+		<tr>
+			<th>SOUPS</th>
+			<th>MAIN COURSES</th>
+			<th>SALADS</th>
+			<th>DESSERTS</th>
+			<th>DRINKS</th>
+		</tr>
+		<tr>
+			<td>Tarhana -> 10 TL</td>
+			<td>Adana -> 35 TL</td>
+			<td>Caesar Salad -> 20 TL</td>
+			<td>Baklava -> 20 TL</td>
+			<td>Su -> 5 TL</td>
+		</tr>
+		<tr>
+			<td>Mercimek -> 10 TL</td>
+			<td>Lahmacun -> 15 TL</td>
+			<td>Çoban Salatası -> 20 TL</td>
+			<td>Künefe -> 20 TL</td>
+			<td>Çay -> 5 TL</td>
+		</tr>
+		<tr>
+			<td>Tomato Soup -> 10 TL</td>
+			<td>Italian Pizza -> 35 TL</td>
+			<td>Broccoli Salad -> 20 TL</td>
+			<td>Sütlaç -> 15 TL</td>
+			<td>Limonata -> 10 TL</td>
+		</tr>
+		<tr>
+			<td>Tortilla Soup -> 10 TL</td>
+			<td>Fettuccine Alfredo -> 30 TL</td>
+			<td>Greek Salad -> 20 TL</td>
+			<td>Trileçe -> 15 TL</td>
+			<td>Ice Tea -> 10 TL</td>
+		</tr>
+		<tr>
+			<td>Noodle Soup -> 10 TL</td>
+			<td>Burger -> 30 TL</td>
+			<td>Taco Salad -> 20 TL</td>
+			<td>Muhallebi -> 15 TL</td>
+			<td>Cola -> 10 TL</td>
+		</tr>
+	</table>
+	
+	<br>
+	
+	<div class="myDiv">
+		<h3>SELECT FOODS AND DRINKS FROM MENU:</h3>
+		
+		<select id="çorba">
+			<option value="Tarhana -> 10 TL">Tarhana</option>
+			<option value="Mercimek -> 10 TL">Mercimek</option>
+			<option value="Tomato Soup -> 10 TL">Tomato Soup</option>
+			<option value="Tortilla Soup -> 10 TL">Tortilla Soup</option>
+			<option value="Noodle Soup -> 10 TL">Noodle Soup</option>
+		</select>
+		<select id="yemek">
+			<option value="Adana -> 35 TL">Adana</option>
+			<option value="Lahmacun -> 15 TL">Lahmacun</option>
+			<option value="Italian Pizza -> 35 TL">Italian Pizza</option>
+			<option value="Fettuccine Alfredo -> 30 TL">Fettuccine Alfredo</option>
+			<option value="Burger -> 30 TL">Burger</option>
+		</select>
+		<select id="salata">
+			<option value="Caesar Salad -> 20 TL">Caesar Salad</option>
+			<option value="Çoban Salatası -> 20 TL">Çoban Salatası</option>
+			<option value="Broccoli Salad -> 20 TL">Broccoli Salad</option>
+			<option value="Greek Salad -> 20 TL">Greek Salad</option>
+			<option value="Taco Salad -> 20 TL">Taco Salad</option>
+		</select>
+		<select id="tatlı">
+			<option value="Baklava -> 20 TL">Baklava</option>
+			<option value="Künefe -> 20 TL">Künefe</option>
+			<option value="Sütlaç -> 15 TL">Sütlaç</option>
+			<option value="Trileçe -> 15 TL">Trileçe</option>
+			<option value="Muhallebi -> 15 TL">Muhallebi</option>
+		</select>
+		<select id="içecek">
+			<option value="Su -> 5 TL">Su</option>
+			<option value="Çay -> 5 TL">Çay</option>
+			<option value="Limonata -> 10 TL">Limonata</option>
+			<option value="Ice Tea -> 10 TL">Ice Tea</option>
+			<option value="Cola -> 10 TL">Cola</option>
+		</select>
+		
+		<br><br>
+		
+		<form>
+			<label for="tip">ENTER TIP AMOUNT: </label>
+			<input type="number" id="tip" name="tip">
+			<label for="date">DATE: </label>
+			<input type="date" id="date" name="date">
+			
+			<br><br>
+			YOUR MENU AND BILL:
+			<br>
+			
+			<textarea id="hesap" name="hesap" rows="7" cols="50">
+			</textarea>
+			
+			<br><br>
+			CLICK THE BUTTON TO RETURN THE BILL
+			<br><br>
+			
+			<button type="button" onclick="bilFunc()">Bill</button>
+			<button type="button" onclick="clearFunc()">Clear</button>
+		</form>
+	</div>
+	
+	<script>
+		function bilFunc(){
+			
+			var ap,bp,cp,dp,ep,result1,result2;
+			var a = document.getElementById("çorba").value;
+			var b = document.getElementById("yemek").value;
+			var c = document.getElementById("salata").value;
+			var d = document.getElementById("tatlı").value;
+			var e = document.getElementById("içecek").value;
+			var f = document.getElementById("tip").value;
+			var g = document.getElementById("date").value;
+			
+			var intF = parseInt(f, 10);
+			
+			if(a=="Tarhana -> 10 TL"){ap=10;}if(a=="Mercimek -> 10 TL"){ap=10;}if(a=="Tomato Soup -> 10 TL"){ap=10;}if(a=="Tortilla Soup -> 10 TL"){ap=10;}if(a=="Noodle Soup -> 10 TL"){ap=10;}
+			if(b=="Adana -> 35 TL"){bp=35;}if(b=="Lahmacun -> 15 TL"){bp=15;}if(b=="Italian Pizza -> 35 TL"){bp=35;}if(b=="Fettuccine Alfredo -> 30 TL"){bp=30;}if(b=="Burger -> 30 TL"){bp=30;}
+			if(c=="Caesar Salad -> 20 TL"){cp=20;}if(c=="Çoban Salatası -> 20 TL"){cp=20;}if(c=="Broccoli Salad -> 20 TL"){cp=20;}if(c=="Greek Salad -> 20 TL"){cp=20;}if(c=="Taco Salad -> 20 TL"){cp=20;}
+			if(d=="Baklava -> 20 TL"){dp=20;}if(d=="Künefe -> 20 TL"){dp=20;}if(d=="Sütlaç -> 15 TL"){dp=15;}if(d=="Trileçe -> 15 TL"){dp=15;}if(d=="Muhallebi -> 15 TL"){dp=15;}
+			if(e=="Su -> 5 TL"){ep=5;}if(e=="Çay -> 5 TL"){ep=5;}if(e=="Limonata -> 10 TL"){ep=10;}if(e=="Ice Tea -> 10 TL"){ep=10;}if(e=="Cola -> 10 TL"){ep=10;}
+			
+			result1=ap+bp+cp+dp+ep;
+			result2=ap+bp+cp+dp+ep+intF;
+			
+			document.getElementById("hesap").value = a+"\n"+b+"\n"+c+"\n"+d+"\n"+e+"\n"+"PRICE: "+result1+" TL"
+			+" + "+f+" TL TIP = "+result2+" TL"+"\n"+"YOUR RESERVATION IS DONE ON "+g;
+			
+		}
+		
+		function clearFunc(){
+			document.getElementById("hesap").value = '';
+		}
+	
+	</script>
+</body>
+</html>

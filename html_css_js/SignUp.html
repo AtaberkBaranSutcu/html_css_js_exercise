@@ -1,0 +1,91 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+<style>
+button {
+background-color: orange;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+button:hover {
+opacity: 0.8;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 10px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+</style>
+</head>
+
+<body bgcolor="#214D94">
+	<table bgcolor="#274187" border="1" width="100%">
+		<tr>
+			<td bgcolor="#FF9B00" colspan="4"><a href="HomePage.html"><img src="logo.png" align="left"></a><h1 style="color:#274187;"><br><br><center>ÇANKAYA RESTAURANT</center></h1><h4 style="color:#274187;"><center>in Alaçatı</center></h4></td>
+		</tr>
+		<tr>		
+			<th><a style="color:#FF9B00" href="Gallery.html">Gallery</a></th>
+			<th><a style="color:white" href="SignUp.html">Sign Up</a></th>
+			<th><a style="color:#FF9B00" href="Reservation.html">Reservation</a></th>
+			<th><a style="color:white" href="Contact.html">Contact</a></th>
+		</tr>
+	</table>
+	
+	<h1 id="h1inf">REGISTER</h1>
+	
+	<form>
+		<div id="signupstyle">
+		<table id="stable">	
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="fname">Full name:</label></td>
+			<td class="stdc"><input type="text" id="fname" name="fname" placeholder="Ataberk Baran Sütcü" required></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="city">City:</label></td>
+			<td class="stdc"><input type="text" id="city" name="city" placeholder="Ankara" required></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="phone">Phone:</label></td>
+			<td class="stdc"><input type="text" id="phone" name="phone" placeholder="05553332211" required></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="email">Email:</label></td>
+			<td class="stdc"><input type="text" id="email" name="email" placeholder="isim@mail.com" required></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label>Gender:</label></td>
+			<td class="stdc"><input type="radio" id="male" name="gender" value="male">
+			<label for="male" style="color:#274187">Male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female" style="color:#274187">Female</label></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="passw">Password:</label></td>
+			<td class="stdc"><input type="password" id="passw" name="passw" placeholder="************" required></td>
+		</tr>
+		<tr>
+			<td class="stdc" style="color:#274187"><label for="passw">Repeat Password:</label></td>
+			<td class="stdc"><input type="password" id="passw" name="passw" placeholder="************" required></td>
+		</tr>
+		<tr>
+			<td class="stdc"></td>
+			<td class="stdc"><input type="checkbox" id="remember" name="remember" value="1">
+			<label for="remember" style="color:#274187">Remember Me</label></td>
+		</tr>
+		<tr>
+			<td class="stdc"></td>
+			<td class="stdc"><button type="submit" onclick="alert('Congratulations! You have successfully registered.')" style="color:#274187">Sign Up</button></td>
+		</tr>	
+			
+		</table>
+		</div>	
+	</form>
+</body>
+
+</html>
